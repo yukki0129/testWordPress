@@ -82,6 +82,8 @@ define('WPLANG', 'ja');
  * テーマおよびプラグインの開発者には、その開発環境においてこの WP_DEBUG を使用することを強く推奨します。
  */
 define('WP_DEBUG', false);
+define('WP_SITEURL', 'http://rotary');
+define('WP_HOME', 'http://rotary');
 
 /* 編集が必要なのはここまでです ! WordPress でブログをお楽しみください。 */
 
@@ -91,3 +93,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
